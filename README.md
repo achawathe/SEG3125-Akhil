@@ -1,74 +1,44 @@
-# SEG3125: Analysis and  Design of User Interfaces – Course Resources
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/84f42101-0573-45fd-b315-b30af6c3a954" alt="Course Image">
-  <br><br>
-  <strong>
-      Welcome to SEG3125: Analysis and Design of User Interfaces</strong>, offered by Professor Abdulmotaleb El Saddik. This repository contains resources, example codes, and guidance to help students understand and implement the fundamental concepts of Interative Use-Centered Design (UCD), Mockup, Prototyping, UX Evaluation, and Design of Futuristic Tools (e.g., AI chatbot, Immersive Space, AR/VR tools, and  Haptic tools)
-</p>
+# 🎬 **Storyboard Generator – AI-Powered Interactive Chatbot** 🎭  
+🔹 **Developed for creative storytelling & visual planning** 🎯  
+An AI-driven chatbot designed to assist users in **storyboarding and scene visualization**. Users can chat about storytelling techniques, refine their narratives, and generate structured **storyboards with six-scene breakdowns**.
 
-# Course Professor 
-**Prof. Abdulmotaleb El Saddik**
--FRSC, FIEEE, FCAE, FEIC
--Distinguished Professor. Multimedia Communications Research Lab
+---
 
+## 🚀 **Features**
+✅ **AI-Powered Storyboard Generation** – Create structured **6-scene** storyboards dynamically  
+✅ **Interactive Chatbot** – Ask AI for insights on visual storytelling, character development, and scene structuring  
+✅ **Customizable Output** – Adjust **temperature** & **Top-P** for different levels of creativity and coherence  
+✅ **Example Queries & Scenarios** – Get inspiration from **predefined storytelling prompts**  
+✅ **User-Friendly UI** – Built with **Gradio** for smooth interaction  
 
-## About the Course
+---
 
-SEG3125 focuses on the principles of designing and evaluating user interfaces for software systems. The course emphasizes usability, accessibility, and user-centric design practices. Students will learn to create user-centered, responsive, and intutive user interfaces using mockups, and prototypes iteratively.
+## 🔗 **Try it Online**
+👉 **[Click Here to Generate a Storyboard & Chat with AI](https://huggingface.co/spaces/Rahatara/StoryboardGenerator)**
 
-## Repository Contents
-This repository contains:
-- **Mockup Examples**
-    -Editable Mockup Example on Figma
-    - [Figma Editable Mockup Link](https://www.figma.com/design/qgSlzzMoZD74MuWJINQyEl/SEG-3125-Test?node-id=0-1&t=wtLnYpA0bPkYaHKg-1)
-  Password: SEG3125
-- **Basic Web Design Code**
-- HTML, CSS, and JavaScript examples to help you build responsive web interfaces.
-- Prototype designs created using bsic web programming.
-- [Example of a Website Prototype](https://aelsaddik.github.io/bike-rental/)
-- Downloadable files and code for rapid prototyping of user interfaces.
- - **Basic AI Chatbot Design Code**
-   -COMING SOON
-- **Resources**
-  - Course-related resources, documentation, and reference materials.
-  - Links to external tutorials for further learning on web design and UI development.
-- **Practice Examples**
-  - Examples to practice and enhance your learnings.
-    
- **Tools Used**
-- Code Editor: W3School [Try it yourself editor](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic).
-- Mockup Tools: [Figma for Education](https://www.figma.com/education/)
-**Hosting Platform Used**
-  
-  -[Github Pages](https://pages.github.com/)
-  
-  -[Huggingface Space](https://huggingface.co/)
+---
 
-## Prerequisites
+## 📂 **Files**
+- `app.py` – The **main application script**  
+- `requirements.txt` – Required dependencies for running the app  
+- `storyboard_examples.pdf` – **Reference guide** with sample AI-generated storyboards  
 
-Before diving into the examples, ensure you have a basic understanding of:
-- HTML5 and CSS3
-- Basic JavaScript for interactivity
-- Wireframing and prototyping concepts
+---
 
-## Contribution Guidelines
-If you’d like to contribute to this repository:
-1. Fork the repository.
-2. Create a new branch for your updates.
-3. Submit a pull request with detailed comments explaining your changes.
+## ☁️ **Deploy on Hugging Face**
+1️⃣ Upload `app.py` and `requirements.txt` to your Hugging Face Space  
+2️⃣ Start the Space and explore **storyboard generation & AI chat**  
+3️⃣ Experiment with **custom parameters** for more creative or structured outputs  
 
-## Contact
+---
 
-For questions related to the course or this repository, you can contact:
+## 🔑 **API Requirement**
+🚨 **[Requires a Groq API key](https://console.groq.com/keys)** for AI-powered **storyboarding & chatbot responses**  
 
-**Prof. Abdulmotaleb El Saddik**
-- Email: elsaddik@uottawa.ca
-- **Rahatara Ferdousi (TA)**
--  Email: rferd068@uottawa.ca
+---
 
-## Disclaimer
+## 📜 **Disclaimer**
+This AI-powered storyboard assistant is designed for **creative exploration**.   
+Use responsibly for educational and entertainment purposes. 🎥✨  
 
-This repository is intended solely for educational purposes.
-
-We hope this repository serves as an useful resource for your journey in User Interface Design! Happy designing!
