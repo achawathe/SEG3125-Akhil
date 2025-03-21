@@ -1,44 +1,72 @@
+# **AI Flashcard Generator – AI-Powered Interactive Chatbot with Note Summarization and Flashcard Creation** 📚✨
 
-# 🎬 **Storyboard Generator – AI-Powered Interactive Chatbot** 🎭  
-🔹 **Developed for creative storytelling & visual planning** 🎯  
-An AI-driven chatbot designed to assist users in **storyboarding and scene visualization**. Users can chat about storytelling techniques, refine their narratives, and generate structured **storyboards with six-scene breakdowns**.
+## 📌 **Overview**
+The **AI Flashcard Generator** is a powerful AI-driven tool designed to help students efficiently create **summarized notes** and **Q&A-style flashcards** from their study material. Built using **Gradio** and **Groq API**, this interactive chatbot enhances learning by structuring information in an easily reviewable format.
 
 ---
 
 ## 🚀 **Features**
-✅ **AI-Powered Storyboard Generation** – Create structured **6-scene** storyboards dynamically  
-✅ **Interactive Chatbot** – Ask AI for insights on visual storytelling, character development, and scene structuring  
-✅ **Customizable Output** – Adjust **temperature** & **Top-P** for different levels of creativity and coherence  
-✅ **Example Queries & Scenarios** – Get inspiration from **predefined storytelling prompts**  
-✅ **User-Friendly UI** – Built with **Gradio** for smooth interaction  
+✅ **AI-Powered Flashcard Creation** – Convert notes into structured **Q&A flashcards** for efficient study sessions.  
+✅ **Note Summarization** – Generate concise, well-organized summaries from lengthy notes or topics.  
+✅ **Interactive Chatbot** – Engage with an AI to refine study materials and receive customized flashcards.  
+✅ **Customizable Output** – Adjust **temperature** and **Top-P** settings for different levels of creativity and specificity.  
+✅ **Example Queries & Scenarios** – Get inspiration from **predefined study prompts**.  
+✅ **User-Friendly UI** – Built with **Gradio** for seamless and intuitive interaction.  
+✅ **Downloadable Chat History** – Export your conversation as a `.txt` file for future reference.  
 
 ---
 
-## 🔗 **Try it Online**
-👉 **[Click Here to Generate a Storyboard & Chat with AI](https://huggingface.co/spaces/Rahatara/StoryboardGenerator)**
+## 🛠 **How It Works**
+### 🔹 **Flashcard Generator**
+1. Enter a **topic** or **paste your notes** into the chatbot.
+2. The AI processes the input and **generates Q&A-style flashcards**.
+3. Adjust creativity and coherence settings using **temperature & Top-P sliders**.
+4. **Download the generated flashcards** for offline study.
+
+### 🔹 **Note Summarizer**
+1. Paste or type your notes in the **Note Summarizer** section.
+2. The AI extracts key concepts and **condenses information** into a structured summary.
+3. Fine-tune the output for **clarity and depth**.
+4. Save the summary for later revision.
 
 ---
 
-## 📂 **Files**
-- `app.py` – The **main application script**  
-- `requirements.txt` – Required dependencies for running the app  
-- `storyboard_examples.pdf` – **Reference guide** with sample AI-generated storyboards  
+## 📂 **Installation & Running the App**
+### 🖥 **Run Locally**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/AI-Flashcard-Generator.git
+   cd AI-Flashcard-Generator
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Set up API Key (Replace `your_api_key_here` with your **Groq API Key**):
+   ```bash
+   export GROQ_API_KEY="your_api_key_here"
+   ```
+4. Launch the application:
+   ```bash
+   python app.py
+   ```
+5. Open your browser and interact with the AI Flashcard Generator!
 
 ---
 
-## ☁️ **Deploy on Hugging Face**
-1️⃣ Upload `app.py` and `requirements.txt` to your Hugging Face Space  
-2️⃣ Start the Space and explore **storyboard generation & AI chat**  
-3️⃣ Experiment with **custom parameters** for more creative or structured outputs  
+## 🔗 **Try it Online NOW**
+👉 **[Click Here to Start Learning Smarter](https://huggingface.co/spaces/YourUsername/FlashcardGenerator)** 🚀
 
 ---
 
-## 🔑 **API Requirement**
-🚨 **[Requires a Groq API key](https://console.groq.com/keys)** for AI-powered **storyboarding & chatbot responses**  
+## 📝 **License**
+This project is licensed under the **MIT License**.
 
 ---
 
-## 📜 **Disclaimer**
-This AI-powered storyboard assistant is designed for **creative exploration**.   
-Use responsibly for educational and entertainment purposes. 🎥✨  
+## 💡 **Contributing**
+Contributions are welcome! Feel free to fork the repo and submit **pull requests**.
 
+---
+
+### **Developed for students who value efficiency in studying. Study smart, not hard!** 🎯📖
