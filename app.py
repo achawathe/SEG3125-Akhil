@@ -1,3 +1,4 @@
+import datetime
 import gradio as gr
 import os
 from groq import Groq
@@ -16,7 +17,7 @@ def download_chat_flashcards():
         f"User: {item['content']}" if item["role"] == "user" else f"Bot: {item['content']}"
         for item in notes_history
     ])
-    file_path = "conversation_history_flashcards.txt"
+    file_path = f"conversation_history_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
     with open(file_path, "w") as f:
         f.write(chat_text)
     return file_path
@@ -27,7 +28,7 @@ def download_chat_notes():
         f"User: {item['content']}" if item["role"] == "user" else f"Bot: {item['content']}"
         for item in notes_history
     ])
-    file_path = "conversation_history_notes.txt"
+    file_path = f"conversation_history_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
     with open(file_path, "w") as f:
         f.write(chat_text)
     return file_path
